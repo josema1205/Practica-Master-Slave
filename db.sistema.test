@@ -1,0 +1,13 @@
+;
+; Zona directa de sistema.test
+;
+$TTL 86400
+@ IN SOA ns.sistema.test. admin.sistema.test. (
+  2024102301 ; Serial
+  3600       ; Refresh
+  1800       ; Retry
+  604800     ; Expire
+  86400 )    ; Negative Cache TTL
+;
+@ IN NS ns.sistema.test.
+ns IN A 10.0.2.15
